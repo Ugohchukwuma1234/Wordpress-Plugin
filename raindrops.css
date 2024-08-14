@@ -1,0 +1,13 @@
+ .raindrop {
+    position: absolute;
+    width: 5px;
+    height: 20px;
+    background: rgba(0, 0, 255, 0.5);
+    animation: fall 1s linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
